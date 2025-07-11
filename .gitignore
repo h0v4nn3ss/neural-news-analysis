@@ -1,0 +1,94 @@
+# Datos grandes (excluir de Git)
+data/raw/word2vec_google.bin
+data/raw/news1.csv
+data/raw/OnlineNewsPopularity.csv
+data/raw/*.bin
+data/raw/*.csv
+!data/raw/news_pred.csv
+!data/raw/GoogleNews-vectors-negative300.txt
+
+# Modelos entrenados
+models/*.h5
+models/*.keras
+models/*.pkl
+models/*.joblib
+*.h5
+*.keras
+*.pkl
+
+# Archivos de respaldo
+backup/
+*_backup/
+*_v[0-9]/
+*_v[0-9][0-9]/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+logs/
+temp/
+outputs/temp/
+
+# Datos procesados grandes
+data/processed/*.csv
+data/processed/*.pkl
+!data/processed/.gitkeep
+
+# Resultados grandes
+results/models/*.h5
+results/models/*.keras
+results/plots/*.png
+results/plots/*.jpg
+!results/models/.gitkeep
+!results/plots/.gitkeep
